@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,9 +12,10 @@
     <!-- BOOTSTRAP -->
 
     <link rel="stylesheet" href="./styles.css">
-    
+
     <title>Cadastro de Contato</title>
 </head>
+
 <body>
     <div class="container">
         <div class="content">
@@ -35,13 +37,13 @@
                         <label for="E-mail">E-mail</label><br>
                         <input name="email" type="text" id="E-mail" placeholder="Insira um E-mail válido">
                     </div>
-                    <div class="form-group">            
+                    <div class="form-group">
                         <label for="Nascimento">Data de Nascimento</label><br>
                         <input name="nascimento" type="text" id="Nascimento" placeholder="__ /__ /____ ">
                     </div>
                     <div class="form-group">
                         <label for="Idade">Idade</label><br>
-                        <input name="idade" type="text" id="Idade" placeholder="Insira sua Idade">            
+                        <input name="idade" type="text" id="Idade" placeholder="Insira sua Idade">
                     </div>
                     <br>
                     <p>É Parente?</p>
@@ -62,10 +64,12 @@
                         <input type="checkbox" name="outro" class="form-check-input" value="" id="checkBox3"><br>
                     </div>
                     <br>
-                    <button type="submit" class="btn btn-primary">Salvar</button>
+                    <button type="submit" class="btn btn-primary" value="save">Salvar</button>
+                    <input type="reset" class="btn btn-cancel" name="cancelar" value="Cancel" onclick='window.location.href="index.php"'>
                 </form>
             </div>
         </div>
-    </div> 
+    </div>
 </body>
+
 </html>

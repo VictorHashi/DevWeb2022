@@ -1,3 +1,9 @@
+<?php
+
+include_once "acao.php";
+
+?>
+
 <!DOCTYPE html>
 <html lang="html">
 <head>
